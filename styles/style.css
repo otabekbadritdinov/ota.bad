@@ -1,0 +1,38 @@
+html {
+	font-size: 14px;
+	font-family: 'Open Sans';
+	background-color: #00539F;
+}
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #FF9500;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00F089;
+	text-shadow: 3px 3px 6px black;
+				/* горизонтальное смещение,
+				вертикальное смещение,
+				размытие */
+}
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+img {
+	display: block;
+	/* Изображения - строчные элементы. Чтобы 
+	применить margin к изображению, ему нужно 
+	дать блочное поведение с помощью display */
+	margin: 0 auto;
+	/* 0 - верхний и нижний отступы,
+	auto - левый и правый (делит пополам) */
+}
